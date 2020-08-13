@@ -1,0 +1,52 @@
+.body{
+    background: black;
+}
+.card-size{
+   /* height: 200px;
+   width: 450px;   */
+   margin: 10px; 
+   /* padding:10px ; */
+}
+
+.poster{
+    height: 180px;
+    /* width: 400px; */
+}
+
+.Row{
+    display: flex;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0, 3, 3);
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.hr{
+      color: grey;
+  }
+.banner{
+  height:500px;
+  margin: 10px;
+}
