@@ -1,4 +1,4 @@
-fetch('http://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=action')
+fetch('https://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=action')
  .then(function(success){ return success.json(); } )
  .then(function(movies)
  { console.log(movies) ;
@@ -53,7 +53,7 @@ fetch('http://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=action')
  } 
  
 })
-fetch('http://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=drama')
+fetch('https://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=drama')
  .then(function(success){ return success.json(); } )
  .then(function(movies)
  { console.log(movies) ;
@@ -109,7 +109,7 @@ fetch('http://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=drama')
  
 })
 
-fetch('http://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=kid')
+fetch('https://www.omdbapi.com/?i=tt3896198&apikey=697e6742&s=kid')
  .then(function(success){ return success.json(); } )
  .then(function(movies)
  { console.log(movies) ;
