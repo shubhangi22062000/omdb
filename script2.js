@@ -17,7 +17,7 @@ searched.addEventListener("click", async function (event) {
     result.classList.remove("display");
     return;
   }
-  let res = await fetch(` http://www.omdbapi.com/?s=${title}&apikey=697e6742`);
+  let res = await fetch(` https://www.omdbapi.com/?s=${title}&apikey=697e6742`);
   console.log(res);
   let data = await res.json();
   console.log(data);
@@ -58,13 +58,7 @@ searched.addEventListener("click", async function (event) {
     // titleDiv.appendChild(releaseYear);
     // card.appendChild(titleDiv);
     result.appendChild(card);
-    // card.addEventListener("click", () => {
-      //   let imdbId = data.Search[i]["imdbID"];
-      //   let link = `http://www.omdbapi.com/?i=${imdbId}&apikey=e10b009d`;
-    //   let link = `http://www.omdbapi.com/?t=${data.Search[i].Title}&apikey=e10b009d&plot=full&`;
-    //   window.open("./info.html" + "?link=" + link);
-    //   console.log(link); // link print for check
-    // });
+    
   }
   
 });
